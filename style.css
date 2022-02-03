@@ -8,6 +8,20 @@ body {
   background: rgb(2, 2, 2);
   font: 100% system-ui;
 }
+.topnav {
+  padding: 3rem;
+  text-align: center;
+  color: #333;
+}
+.navba {
+  display: flex;
+  justify-content: space-between;
+}
+.navba a {
+  border-radius: 2em;
+  border: 1px solid white;
+  padding: 0.6rem 1.5rem;
+}
 
 h1 {
   text-align: center;
@@ -30,4 +44,35 @@ h1 {
 #githubpic {
   border-radius: 50%;
   width: 25em;
+}
+#arrow {
+  width: 25px;
+  border-radius: 50%;
+}
+#webdevpic {
+  width: 25em;
+}
+#card-body {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap column;
+  align-content: center;
+}
+#github {
+  border: 3px solid white;
+  display: flex;
+  flex-flow: wrap column;
+  padding: 30px 250px 30px 30px;
+  border-radius: 10%;
+}
+#twitter {
+  border: 3px solid white;
+  display: flex;
+  flex-flow: wrap column;
+  padding: 30px 250px 30px 30px;
+  border-radius: 10%;
+}
+.picture {
+  border-radius: 25%;
 }

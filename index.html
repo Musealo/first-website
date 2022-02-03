@@ -12,16 +12,23 @@
       <h1>Portfolio</h1>
       <h2>Welcome to my first webpage</h2>
     </header>
-    <nav>
-      <a href="#hobbies">Hobbies</a> <a href="#contact">Contact</a>
-      <a href="#biography">Biography</a>
-    </nav>
+    <!--My navbar-->
+    <div class="topnav">
+      <div class="navba">
+        <a class="aaa" href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+        <a href="#biography">Biography</a>
+      </div>
+    </div>
     <div>
+      <!--placeholder pic-->
       <img
         id="webdevpic"
+        alt=""
         src="https://www.egeniq.nl/sites/default/files/2020-06/frontend_webdeveloper.jpg"
       />
     </div>
+    <!--Infos about me-->
     <div id="aboutme">
       <h3>About me</h3>
       <p>Hello World!</p>
@@ -30,6 +37,7 @@
         Currently I'm a student at NeueFische bootcamp to become a Web Developer
       </p>
     </div>
+    <!--My hobbies-->
     <section id="hobbies">
       <p>My hobbies are:</p>
       <ul>
@@ -39,25 +47,51 @@
         <li>going out with friends</li>
       </ul>
     </section>
+    <!--Contact informations-->
     <div id="contact">
       <p>Num:</p>
       <p>01758852636</p>
       <p>Mail:</p>
       <p>dennism3991@googlemail.com</p>
     </div>
-    <div id="social">
-      <a href="https://github.com/Musealo"
-        ><img
-          id="githubpic"
-          src="https://www.blackmoreops.com/wp-content/uploads/2021/09/Quick-Github-Tutorial.png"
-          target="_blank"
-      /></a>
+    <!--Social media-->
+    <div id="card-body">
+      <h3>Social</h3>
+      <!--Github linked with picture-->
+      <section id="github">
+        <img
+          class="picture"
+          src="https://nf-assets.vercel.app/github@2x.png"
+          alt="little-astronaut"
+        />
+        <p>Github</p>
+        <p>See my cool Repos</p>
+        <a href="https://github.com/Musealo"
+          ><img
+            alt="arrow"
+            id="arrow"
+            src="https://w7.pngwing.com/pngs/613/214/png-transparent-blue-arrow-arrow-computer-icons-blue-arrow-miscellaneous-blue-angle.png"
+        /></a>
+      </section>
+      <!-- Twiiter linked with pic-->
+      <section id="twitter">
+        <img
+          class="picture"
+          alt=""
+          src="https://nf-assets.vercel.app/twitter@2x.png"
+        />
+        <p>Twitter</p>
+        <a href="https://twitter.com/?lang=en"
+          ><img
+            alt="arrow"
+            id="arrow"
+            src="https://w7.pngwing.com/pngs/613/214/png-transparent-blue-arrow-arrow-computer-icons-blue-arrow-miscellaneous-blue-angle.png"
+        /></a>
+      </section>
     </div>
-    <article id="biography">
-      <p>hfsghghfjklsghshguwihgfjwkwj</p>
-      <p>uihrwfuwhrguhwgriufdhwufihruweg</p>
-    </article>
-    <aside>hgwrijhgiwfhgijwh</aside>
+    <!--my biography-->
+    <article id="biography"></article>
+
     <footer></footer>
   </body>
 </html>
