@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  color: rgb(240, 235, 235);
+  background: rgb(2, 2, 2);
+  font: 100% system-ui;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  border: 5px solid white;
+  padding: 1em;
+}
+#aboutme {
+  font-family: Quintessential, sans-serif;
+}
+#contact {
+  border: 5px solid white;
+  padding: 20px;
+  margin: 10px;
+}
+#social {
+  display: block;
+  text-align: center;
+}
+#githubpic {
+  border-radius: 50%;
+  width: 25em;
+}
