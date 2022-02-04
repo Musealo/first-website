@@ -5,84 +5,112 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meine Webseite</title>
+    <title>My Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>Portfolio</h1>
-      <h2>Welcome to my first webpage</h2>
-    </header>
-    <!--My navbar-->
-    <div class="topnav">
-      <div class="navba">
-        <a class="btn" href="#aboutme">About me</a>
-        <a class="btn" href="#contact">Contact</a>
-        <a class="btn" href="#projects">Projects</a>
+    <main>
+      <header>
+        <h1>Portfolio</h1>
+        <h2>Welcome to my first webpage</h2>
+      </header>
+      <!--My navbar-->
+      <div class="topnav">
+        <div class="navba">
+          <a class="btn" href="#aboutme">About me</a>
+          <a id="view-projects" class="btn" href="#projects">Projects</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
       </div>
-    </div>
-    <div>
-      <!--placeholder pic-->
-      <img
-        id="webdevpic"
-        alt=""
-        src="https://www.egeniq.nl/sites/default/files/2020-06/frontend_webdeveloper.jpg"
-      />
-    </div>
-    <!--Infos about me-->
-    <div id="aboutme">
-      <h3>About me</h3>
-      <p>Hello World!</p>
-      <p>I'm Dennis, I'm 30 years old and I live near Koblenz.</p>
-      <p>
-        Currently I'm a student at NeueFische bootcamp to become a Web Developer
-      </p>
-    </div>
-
-    <!--Contact informations-->
-    <div id="contact">
-      <p>Contact me:</p>
-      <p>Num:</p>
-      <p>01758852636</p>
-      <p>Mail:</p>
-      <p>dennism3991@googlemail.com</p>
-    </div>
-    <!--Social media-->
-    <div id="card-body">
-      <h3>Social</h3>
-      <!--Github linked with picture-->
-      <section id="github">
+      <div>
+        <!--placeholder pic for selfie-->
         <img
-          class="picture"
-          src="https://nf-assets.vercel.app/github@2x.png"
-          alt="little-astronaut"
-        />
-        <p>Github</p>
-        <p>See my cool Repos</p>
-        <a href="https://github.com/Musealo"
-          ><img
-            alt="arrow"
-            id="arrow"
-            src="https://w7.pngwing.com/pngs/613/214/png-transparent-blue-arrow-arrow-computer-icons-blue-arrow-miscellaneous-blue-angle.png"
-        /></a>
-      </section>
-      <!-- Twiiter linked with pic-->
-      <section id="twitter">
-        <img
-          class="picture"
+          id="webdevpic"
           alt=""
-          src="https://nf-assets.vercel.app/twitter@2x.png"
+          src="https://www.egeniq.nl/sites/default/files/2020-06/frontend_webdeveloper.jpg"
         />
-        <p>Twitter</p>
-        <a href="https://twitter.com/?lang=en"
-          ><img
-            alt="arrow"
-            id="arrow"
-            src="https://w7.pngwing.com/pngs/613/214/png-transparent-blue-arrow-arrow-computer-icons-blue-arrow-miscellaneous-blue-angle.png"
-        /></a>
-      </section>
-    </div>
-    <!--my biography-->
+      </div>
+      <!--Infos about me-->
+      <div id="aboutme">
+        <h3>About me</h3>
+        <p>Hello World!</p>
+        <p>I'm Dennis, I'm 30 years old and I live near Koblenz.</p>
+        <p>
+          Currently I'm a student at NeueFische bootcamp to become a Web
+          Developer
+        </p>
+      </div>
+      <!--All my future projects listed with ploceholder pictures-->
+      <div id="projects">
+      <div class="caption">
+        <h3>Project 1</h3>
+        <p>placeholder description of the project</p>
+      </div>
+      <img src="https://source.unsplash.com/1600x900/?computer,developer" alt="">
+      <div class="caption">
+        <h3>Project 2</h3>
+        <p>placeholder description of the project</p>
+      </div>
+      <img src="https://source.unsplash.com/1600x900/?computer,system" alt="">
+      <div class="caption">
+        <h3>Project 3</h3>
+        <p>placeholder description of the project</p>
+      </div>
+      <img src="https://source.unsplash.com/1600x900/?computer,programming" alt="">
+      <div class="caption">
+        <h3>Project 4</h3>
+        <p>placeholder description of the project</p>
+      </div>
+      <img src="https://source.unsplash.com/1600x900/?computer, web" alt="">
+      </div>
+    </main>
+    <footer>
+      <!-- Contact information-->
+      <div id="contact">
+        <h3>Get in Touch</h3>
+      <p>E-Mail or Call</p>
+        <p>Num:</p>
+        <p>xxxxxxxxxxxxxx</p>
+        <p>Mail:</p>
+        <p>xxxxxxxxxxxxxx</p>
+        <div id="card-body">
+        <!--Github linked with picture-->
+        <section id="github">
+          <img
+            class="picture"
+            src="https://nf-assets.vercel.app/github@2x.png"
+            alt="little-astronaut"
+          />
+          <p>Github</p>
+          <p>See my cool Repos</p>
+          <a href="https://github.com/Musealo"
+            ><img
+              alt="arrow"
+              id="arrow"
+              src="https://w7.pngwing.com/pngs/613/214/png-transparent-blue-arrow-arrow-computer-icons-blue-arrow-miscellaneous-blue-angle.png"
+          /></a>
+        </section>
+        <!-- Twiiter linked with pic-->
+        <section id="twitter">
+          <img
+            class="picture"
+            alt=""
+            src="https://www.techjuice.pk/wp-content/uploads/2021/02/linkedin-101-hero@2x.png"
+          />
+          <p>LinkedIn</p>
+          <a href="https://www.linkedin.com/in/dennis-m-42a3ba211/"
+            ><img
+              alt="arrow"
+              id="arrow"
+              src="https://w7.pngwing.com/pngs/613/214/png-transparent-blue-arrow-arrow-computer-icons-blue-arrow-miscellaneous-blue-angle.png"
+          /></a>
+        </section>
+      </div>
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
 
-    <footer></footer>
+  <script> src="script.js"</script>
   </body>
 </html>

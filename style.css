@@ -31,10 +31,7 @@ h2 {
   text-transform: uppercase;
   margin: 0;
 }
-img {
-  display: block;
-  width: 100%;
-}
+
 main {
   max-width: 900px;
   margin: auto;
@@ -51,27 +48,12 @@ main {
   color: #333;
   transition: background 500ms ease;
 }
-#aboutme {
-  font-family: Quintessential, sans-serif;
+.btn:hover {
+  background: grey;
 }
-#contact {
-  padding: 20px;
-  margin: 10px;
-}
-#social {
+img {
   display: block;
-  text-align: center;
-}
-#githubpic {
-  border-radius: 50%;
-  width: 25em;
-}
-#arrow {
-  width: 25px;
-  border-radius: 50%;
-}
-#webdevpic {
-  width: 25em;
+  width: 100%;
 }
 #card-body {
   border: 1px solid white;
@@ -96,4 +78,32 @@ main {
 }
 .picture {
   border-radius: 25%;
+  width: 10rem;
+}
+#contact {
+  padding: 20px;
+  margin: 10px;
+}
+#social {
+  display: block;
+  text-align: center;
+}
+#githubpic {
+  border-radius: 50%;
+  width: 25em;
+}
+#arrow {
+  width: 25px;
+  border-radius: 50%;
+}
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
