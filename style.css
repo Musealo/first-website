@@ -74,12 +74,13 @@ img {
   border-radius: 10%;
   width: 1rem;
 }
-#twitter {
+#linkedin {
   border: 3px solid white;
   display: flex;
   flex-flow: wrap column;
   padding: 30px 250px 30px 30px;
   border-radius: 10%;
+  width: 1rem;
 }
 .picture {
   border-radius: 25%;
@@ -90,10 +91,8 @@ img {
   display: block;
   text-align: center;
 }
-#githubpic {
-  border-radius: 50%;
-}
-#arrow {
+
+.arrow {
   width: 25px;
   border-radius: 50%;
 }
