@@ -75,7 +75,6 @@ img {
   align-content: center;
 }
 #github {
-  border: 3px solid white;
   display: flex;
   flex-flow: wrap column;
   padding: 30px 250px 30px 30px;
@@ -83,7 +82,6 @@ img {
   width: 1rem;
 }
 #linkedin {
-  border: 3px solid white;
   display: flex;
   flex-flow: wrap column;
   padding: 30px 250px 30px 30px;
