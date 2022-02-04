@@ -3,22 +3,26 @@
 * {
   box-sizing: border-box;
 }
+/*Styling body */
 body {
+  /*Font from body*/
   font-family: "Roboto", sans-serif;
   background: #eee;
   font: 100% system-ui;
   margin: 0;
   height: auto;
 }
+/* Color of my paragraphs*/
 p {
   color: black;
 }
+/* Styling of topnav class*/
 .topnav {
   padding: 3rem;
   text-align: center;
   color: #333;
 }
-
+/* Styling of my h1-h3*/
 h1 {
   text-align: center;
   padding: 1em;
