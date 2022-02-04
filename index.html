@@ -16,9 +16,9 @@
       <!--My navbar-->
       <div class="topnav">
         <div class="navba">
-          <a class="btn" href="#aboutme">About me</a>
+          <a id="view-about" class="btn" href="#aboutme">About me</a>
           <a id="view-projects" class="btn" href="#projects">Projects</a>
-          <a class="btn" href="#contact">Contact</a>
+          <a id="view-contact"class="btn" href="#contact">Contact</a>
         </div>
       </div>
       <div>
@@ -30,6 +30,7 @@
         />
       </div>
       <!--Infos about me-->
+      <div id="view-about">
       <div id="aboutme">
         <h3>About me</h3>
         <p>Hello World!</p>
@@ -39,6 +40,7 @@
           Developer
         </p>
       </div>
+    </div>
       <!--All my future projects listed with ploceholder pictures-->
       <div id="projects">
       <div class="caption">
@@ -67,7 +69,7 @@
       <!-- Contact information-->
       <div id="contact">
         <h3>Get in Touch</h3>
-      <p>E-Mail or Call</p>
+        <p>E-Mail or Call</p>
         <p>Num:</p>
         <p>xxxxxxxxxxxxxx</p>
         <p>Mail:</p>
@@ -105,6 +107,7 @@
           /></a>
         </section>
       </div>
+      </div>
     </footer>
     <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -120,6 +123,28 @@
       },
       900
     );
-  });</script>
+  });
+  $('#view-about').on('click', function() {
+    const aboutsme = $('#aboutme').position().top;
+  
+    $('html, body').animate(
+      {
+        scrollTop: aboutsme
+      },
+      900
+    );
+  });
+  $('#view-contact').on('click', function() {
+    const cants = $('#contact').position().top;
+  
+    $('html, body').animate(
+      {
+        scrollTop: cants
+      },
+      900
+    );
+  });
+  
+  
   </body>
 </html>
